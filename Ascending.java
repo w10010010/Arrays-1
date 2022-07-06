@@ -6,7 +6,7 @@ public class Main{
       for(int j=i;j<n;j++){
         if(array[i]>array[j]){
           int temp = array[i];
-          array[i] = array[j]
+          array[i] = array[j];
           array[j] = temp;
         }
       }
